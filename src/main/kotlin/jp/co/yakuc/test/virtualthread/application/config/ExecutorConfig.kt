@@ -10,11 +10,11 @@ import org.springframework.core.task.support.TaskExecutorAdapter
 import java.util.concurrent.Executors
 
 
-@Configuration
 /**
  * Virtual Threadを生成する設定。
  * @see https://spring.io/blog/2022/10/11/embracing-virtual-threads
  */
+@Configuration
 class ExecutorConfig {
 
     @Bean(TaskExecutionAutoConfiguration.APPLICATION_TASK_EXECUTOR_BEAN_NAME)
