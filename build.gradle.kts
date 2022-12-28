@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "3.0.0-RC2"
+	id("org.springframework.boot") version "3.0.1"
 	id("io.spring.dependency-management") version "1.1.0"
 	kotlin("jvm") version "1.7.20"
 	kotlin("plugin.spring") version "1.7.20"
@@ -14,7 +14,6 @@ java.sourceCompatibility = JavaVersion.VERSION_19
 
 repositories {
 	mavenCentral()
-	maven { url = uri("https://repo.spring.io/milestone") }
 }
 
 dependencies {
